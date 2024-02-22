@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(135deg, rgb(63, 119, 129), rgb(226, 241, 245));
+  width: 20rem;
+  margin-top: 5rem;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.city-name {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+.weather-image {
+  width: 12rem;
+}
+.temp {
+  font-size: 12rem;
+}

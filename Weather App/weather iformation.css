@@ -1,0 +1,37 @@
+.weather-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+}
+.humidity,
+.wind-speed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(197, 199, 199);
+  border-radius: 1rem;
+  padding: 1rem;
+  gap: 0.3vw;
+  width: 6rem;
+}
+.humidity-img,
+.wind-img {
+  width: 3rem;
+}
+
+.humidity-text,
+.wind-text,
+.humidity-num,
+.wind-num {
+  font-size: 1rem;
+}
+.temp {
+  font-size: 1.7rem;
+}
+.humidity-text,
+.wind-text {
+  width: 7rem;
+  text-align: center;
+}
